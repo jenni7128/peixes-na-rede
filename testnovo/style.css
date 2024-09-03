@@ -1,0 +1,167 @@
+/*comentários (atalho para comentários:
+ ctrl+K ctrl+C)*/
+
+ *{
+    width:auto;
+    height: auto;
+    background-color:rgb(137, 198, 245) ;
+}
+body{
+    width: 98%;
+    height: 100%;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, .menu{
+        padding: 10px;
+        color:black;
+        border: 1px;
+        border-style: dashed;
+}
+.menu{
+        background-color: rgb(107, 146, 209);
+}
+.Titulo, .Formacao, .Experiencias, .Tabela, .Sobrenos{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Formacao ,.Experiencias h2{
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Formacao ,.Experiencias li{
+    color:rgb(145, 38, 38);
+}
+.Cards img{
+    margin: 20px;
+    width:200px ;
+    height:200px ;
+    border-radius: 360px;
+}
+a{
+    background-color:inherit;
+    color: rgb(12, 4, 159);
+    font-style: italic;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+iframe{
+    width: 600px;
+    height: 480px;
+}
+.fotoperfil{
+    width: 10%;
+    border-radius: 360%;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+}
+/* Estilização do container do slider */
+.slider {
+    width: 100%; /* O slider ocupa 100% da largura disponível */
+    max-width: 800px; /* Limite de largura para o slider */
+    margin: 0 auto; /* Centraliza o slider horizontalmente */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites do container */
+    position: relative; /* Posiciona o slider de forma relativa para posicionar elementos dentro dele, se necessário */
+}
+
+/* Estilização do container das slides */
+.slides {
+    display: flex; /* Alinha os slides em linha, horizontalmente */
+    width: 300%; /* Largura do container de slides é 3 vezes a largura do slider para acomodar todos os slides */
+    animation: slideAnimation 19s infinite; /* Aplica a animação que movimenta os slides, com duração de 9 segundos e repetição infinita */
+}
+
+/* Estilização individual de cada slide */
+.slide {
+    width: 100%; /* Cada slide ocupa 100% da largura do slider */
+    flex-shrink: 10px; /* Evita que o slide encolha e force o flex a alterar seu tamanho */
+}
+
+/* Definição da animação para os slides */
+@keyframes slideAnimation {
+    0% { transform: translateX(0); } /* Posição inicial do primeiro slide */
+    33% { transform: translateX(-100%); } /* Move para o segundo slide */
+    66% { transform: translateX(-200%); } /* Move para o terceiro slide */
+    100% { transform: translateX(0); } /* Retorna ao primeiro slide */
+}
+
+/* Estilização das imagens dentro dos slides */
+.slide img {
+    width: 100%; /* A imagem ocupa 100% da largura do slide */
+    display: block; /* Remove qualquer espaço extra ao redor da imagem */
+}
+
+/*====================================================*/
+
+
+/* Estilo para o contêiner principal */
+.container {
+    display: flex; /* Define o contêiner como um flexbox */
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+}
+
+/* Estilo para cada card */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    flex: 1; /* Permite que os cards cresçam igualmente */
+    max-width: 300px; /* Define uma largura máxima para os cards */
+}
+
+/* Estilo para o título dos cards */
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilo para o parágrafo dos cards */
+.card p {
+    color: #666;
+}
+
+/*====================================*/
+
+footer{
+    background-color: #598acb;
+    color: aliceblue;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-sention h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ff6347;
+}
+
+.footer-sention p, .footer-sention ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-sention ul {
+    list-style-type: none;
+}
