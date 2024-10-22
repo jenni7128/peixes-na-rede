@@ -1,0 +1,29 @@
+/* barra de cima */
+nav{
+    background-color: rgba(107, 46, 8, 0.637);
+    padding: 3px ;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:black;
+}
