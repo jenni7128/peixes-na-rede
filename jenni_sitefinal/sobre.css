@@ -28,9 +28,9 @@ nav ul li a:hover{
     color:black;
 }
 
-/* inicio */
 
 
+/* card*/
 
 header {
     background-color: rgba(93, 44, 3);
@@ -39,77 +39,42 @@ header {
     text-align: center;
 }
 header h1 {
-    font-size: 3em;
-    margin: 0;
-}
-header p {
-    font-size: 1.2em;
-}
-.cta-button {
-    background-color: rgb(163, 11, 11);
-    color: white;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-decoration: none;
-}
-.cta-button:hover {
-    background-color: rgb(163, 11, 11);
+    font-size: 2.5em;
 }
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 40px 0;
-}
-.products-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.product-card {
-    width: 30%;
-    background-color: white;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
-.product-card img {
-    max-width: 100%;
-    border-radius: 8px;
+h2 {
+    font-size: 2em;
+    color: rgb(163, 11, 11);
 }
-.product-card h3 {
-    color: #2d3b48;
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
 }
-.contact-form {
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.highlight {
+    color: rgb(66, 1, 1);
+    font-weight: bold;
+}
+
+.about-content {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.contact-form button {
-    background-color: #2d3b48;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.contact-form button:hover {
-    background-color: #1a2b38;
-}
+
+
 
 
 /* roda pé */

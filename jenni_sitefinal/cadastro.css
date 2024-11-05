@@ -1,0 +1,141 @@
+/* barra de cima */
+nav{
+    background-color: rgba(107, 46, 8, 0.637);
+    padding: 3px ;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+
+
+/* cadastro */ 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(232, 212, 212);
+    height: auto;
+    width: 385px;
+    border-radius: 20px;
+   
+  }
+  
+  .title {
+    color: rgb(153, 7, 7);
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .sub_title {
+    font-weight: 600;
+    margin: 5px 0;
+    color: rgba(93, 44, 3);
+  }
+  
+  .form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+  }
+  
+  .form_style {
+    outline: 0;
+    border: 1px solid  rgb(93, 44, 3);
+    width: 100%;
+    padding:  0.75rem 1rem;
+    border-radius: 0.375rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(171, 140, 140);
+  }
+  
+  .form_style:focus, .btn:focus {
+    border-color: rgb(160, 63, 55);
+  }
+  
+  .btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 290px;
+    font-size: 0.75rem;
+    background: rgb(160, 63, 55);
+    border-radius: 0.375rem;
+    font-weight: 800;
+    
+  }
+  
+  .btn:hover {
+    opacity: .9;
+  }
+  
+  .link {
+    font-weight: 800;
+    color: rgb(163, 11, 11);
+    padding: 5px;
+  }
+
+
+/* roda pé */
+footer{
+    background-color:rgba(107, 46, 8, 0.637); 
+    color: rgb(241, 235, 235);
+    padding: 35px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    max-width: 1300px;
+    margin: 2px;
+    padding: 0 20px;
+}
+
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: rgb(241, 235, 235);
+}
+
+.footer-section p, .footer-section ul{
+    margin: 25px;
+    padding: 0;
+    line-height: 1.5;  
+}
+
+.footer-section ul {
+    list-style-type:none; 
+}
