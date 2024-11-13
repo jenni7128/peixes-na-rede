@@ -1,0 +1,146 @@
+/* barra de cima */
+nav{
+    background-color: rgba(107, 46, 8, 0.637);
+    padding: 3px ;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+
+/* inicio */
+
+
+
+header {
+    background-color: rgba(93, 44, 3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+header p {
+    font-size: 1.2em;
+}
+.cta-button {
+    background-color: rgb(163, 11, 11);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.cta-button:hover {
+    background-color: rgb(163, 11, 11);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.products-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-card {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.product-card h3 {
+    color: #2d3b48;
+}
+.contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #2d3b48;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #1a2b38;
+}
+
+
+/* roda pé */
+footer{
+    background-color:rgba(107, 46, 8, 0.637); 
+    color: rgb(241, 235, 235);
+    padding: 35px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    max-width: 1300px;
+    margin: 2px;
+    padding: 0 20px;
+}
+
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: rgb(241, 235, 235);
+}
+
+.footer-section p, .footer-section ul{
+    margin: 25px;
+    padding: 0;
+    line-height: 1.5;  
+}
+
+.footer-section ul {
+    list-style-type:none; 
+}

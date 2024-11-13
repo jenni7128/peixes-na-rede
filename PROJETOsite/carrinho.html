@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaveiros online</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <!-- barra de cima -->
+    <nav>
+        <li><a href="index.html"><img src="favicon.png" alt="" width="5%"></a></li>
+        <ul>
+            
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="produtos.html">CHAVEIROS</a></li>
+            <li><a href="carrinho.html">CARRINHO</a></li>
+            <li><a href="sobre.html">SOBRE NOS</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="cadastro.html">CADASTRO</a></li>
+        </ul>
+    </nav>
+    
+
+        <!-- carrinho -->
+  <main>
+    <section class="carrinho">
+        <table>
+            <thead>
+                <tr>
+                    <th>produto</th>
+                    <th>quantidade</th>
+                    <th>preço unitario</th>
+                    <th>total</th>
+                    <th>ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chaveiro Guitarra</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preco-unitario">R$ 15,99</td>
+                    <td class="preco-total">R$ 15,99</td>
+                    <td>
+                        <button class="remover-produto">Remover</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Chaveiro de Caracol</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preco-unitario">R$ 21,99</td>
+                    <td class="preco-total">R$ 21,99</td>
+                    <td>
+                        <button class="remover-produto">Remover</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Chaveiro Coelho</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preco-unitario">R$ 12,99</td>
+                    <td class="preco-total">R$ 12,99</td>
+                    <td>
+                        <button class="remover-produto">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total-final">
+            <h3>Total Final: <span id="total-final"></span></h3>
+        </div>
+    </section>
+  </main>
+
+
+    <!-- Roda pé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Sobre Nós</h4>
+                <p>Nos da Chaveiros online somos uma equipe dedicada a fornecer o melhor suporte e soluções para nossos clientes.
+                    Se tiver alguma duvida entre em contato conosco. </p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Email: ds2aulas@gmail.com</p>
+                <p>Telefone: (19) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+            </div>
+            <div class="footer-section">
+                <h4>Sigos-nos</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>@2024. Chaveiros online. Todos os direitos reservados para jennifer de Lima Perira</p>
+        </div>
+    </footer>
+
+    <script src="carrinho.js"></script>
+</body>
+</html>

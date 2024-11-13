@@ -1,0 +1,148 @@
+/* barra de cima */
+nav{
+    background-color: rgba(107, 46, 8, 0.637);
+    padding: 3px ;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+
+/* cards */
+
+header {
+    background-color: rgba(93, 44, 3);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+header p {
+    font-size: 1.2em;
+}
+.cta-button {
+    background-color: rgb(163, 11, 11);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.cta-button:hover {
+    background-color: rgb(196, 4, 4);
+}
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.chaveiro {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.chaveiro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.chaveiro h3 {
+    margin: 10px 0;
+    color: rgb(66, 1, 1);
+}
+.chaveiro p {
+    color: #5f4b4b;
+    margin-bottom: 15px;
+}
+.comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #291d1d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.comprar:hover {
+    background-color: rgb(163, 11, 11);
+}
+
+
+
+
+
+/* roda pé */
+footer{
+    background-color:rgba(107, 46, 8, 0.637); 
+    color: rgb(241, 235, 235);
+    padding: 35px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    max-width: 1300px;
+    margin: 2px;
+    padding: 0 20px;
+}
+
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: rgb(241, 235, 235);
+}
+
+.footer-section p, .footer-section ul{
+    margin: 25px;
+    padding: 0;
+    line-height: 1.5;  
+}
+
+.footer-section ul {
+    list-style-type:none; 
+}
